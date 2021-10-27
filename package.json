@@ -1,0 +1,18 @@
+{
+  "name": "twvemday",
+  "version": "1.0.0",
+  "description": "stand alone twind pro ject with static html",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/twind.css -o src/two.css",
+    "watch": "tailwindcss  -o src/two.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "seum",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  }
+}
